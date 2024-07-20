@@ -7,7 +7,7 @@
 #include "lui_window.hpp"
 
 class Text : public UI_ROOT{
-	std::string text, font = "����";
+	std::string text, font = "¿¬Ìå";
 	color_t	fg = WHITE, bk;
 	int bkmode = TRANSPARENT;
 	int x = 0, y = 0, fontw = 0, fonth = 20;
@@ -48,7 +48,7 @@ class Text : public UI_ROOT{
 		}
 };
 
-class Photos : public UI_ROOT{
+class Photos : public UI_ROOT{ //该组件未开发完全，请勿使用！
 	std::string path;
 	PIMAGE p;
 	int x = 0, y = 0, h, w;
